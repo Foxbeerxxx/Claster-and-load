@@ -95,8 +95,10 @@ listen web_tcp
 
 
 5. `Сохранил файл и делоаю sudo systemctl reload haproxy и получаю ошибку, почему? потратил час так и не выкружил проблему, нужна подстказка`
+`Скриншоты ошибок`
 ![5](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img5.png)`
 
+![6](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img6.png)`
 
 
 
