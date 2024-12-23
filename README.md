@@ -7,15 +7,19 @@
 `Начинаю делать все по лекции`
 
 1. `Создаю директории http1 и http2`
+
 ![1](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img1.png)`
 
 2. `Запустил два simple python сервера на своей виртуальной машине на разных портах`
+
 ![2](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img2.png)`
 
 3. `Проверяю балансировку с весом 3 на первый сервер по седьмому уровню OCI`
+
 ![3](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img3.png)`
 
 4. `Проверяем балансировку по 4 уровню`
+
 ![4](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img4.png)`
 
 5. `Установил Haproxy  и настроил conf - файл:`
