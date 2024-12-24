@@ -117,19 +117,13 @@ listen web_tcp
 
 ![12](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img12.png)`
 
+5. `Делаем проверку обращаясь к example.local`
+![10](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img10.png)`
 
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+6. `Смотрим страницу статистики http://10.0.2.15:888/stats`
+![13](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img13.png)`
+ 
+`Конфигурационный файл haproxy прилагаю`
 
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
 
 
