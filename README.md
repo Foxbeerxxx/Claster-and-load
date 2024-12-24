@@ -76,12 +76,13 @@ frontend example  # секция фронтенд
 	#use_backend web_servers if ACL_example.com
 
 backend web_servers    # секция бэкенд
-        mode http
+       mode http
         balance roundrobin
         option httpchk
-        http-check send meth GET uri /index.html
+        option httpchk GET /index.html
         server s1 127.0.0.1:8888 check
         server s2 127.0.0.1:9999 check
+
 
 
 listen web_tcp
@@ -94,12 +95,11 @@ listen web_tcp
 
 
 
-5. `Сохранил файл и делоаю sudo systemctl reload haproxy и получаю ошибку, почему? Потратил чполтора часа так и не выкружил проблему, нужна подстказка, делал все строго по лекции`
-`Скриншоты ошибок`
+5. `Поправил, благодаря подсказке в статье от Александра Зубарева - Спасибо `
+`Сервис заработал`
 
-![Проверка Conf](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img5.png)`
+![7](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img7.png)`
 
-![6](https://github.com/Foxbeerxxx/Claster-and-load/blob/main/img/img6.png)`
 
 
 
